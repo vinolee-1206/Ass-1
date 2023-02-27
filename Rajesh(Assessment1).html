@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <h1>Employee Registration Form</h1>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" /><br /><br /><br />
+
+        <label for="em">Email</label>
+        <input type="email" id="em" /><br /><br /><br />
+        <label for="passwd">Password</label>
+        <input type="password" id="passwd" /><br /><br /><br />
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" /><br /><br /><br />
+        <label for="r1">Male</label>
+        <input type="radio" value="Male" id="r1" class="gender" />
+        <label for="r2">Female</label>
+        <input type="radio" value="Female" id="r2" class="gender" />
+        <label for="Others">others</label>
+        <input type="radio" value="Other" id="r3" class="gender" />
+      </fieldset>
+    </form>
+    <form>
+      <fieldset>
+        <legend style="font_size: 22px">Contact Information</legend>
+        <label for="address">Address</label><br />
+        <textarea
+          id="address"
+          placeholder="type your address"
+          style="width: 200px; height: 100px"
+        ></textarea
+        ><br /><br />
+        <label for="city">Select your city</label>
+        <select id="city">
+          <option value="Chennai">Chennai</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Delhi">Delhi</option></select
+        ><br /><br />
+
+        <label for="phno">Phone Number</label>
+        <input type="phone number" />
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Additional Information</legend>
+        <p><u>Hobbies:</u></p>
+        <br /><br />
+        <label for="r1">Reading</label>
+        <input type="radio" value="Reading" id="re" class="hob" /><br /><br />
+        <label for="tr">Traveling</label>
+        <input type="radio" value="writting" id="r1" class="hob" /><br /><br />
+        <label for="upl">Upload your photo</label>
+        <input type="file" id="upl" />
+      </fieldset>
+    </form>
+  </body>
+</html>
